@@ -1,28 +1,27 @@
-# CrossKT: Learning Asynchronous Common and Individual Functional Brain Network for AD Diagnosis(MICCAI 2023)
+# CrossKT: Learning Asynchronous Common and Individual Functional Brain Network for AD Diagnosis (MICCAI 2023)
 
 
 
-# overview
+# Overview
 
 ![image](framework.png)
-This code is for the paper: Learning Asynchronous Common and Individual Functional Brain Network for AD Diagnosis. 
-Experimental data sourced from ADNI datasets( https://adni.loni.usc.edu/).
+This code is for the paper: Learning Asynchronous Common and Individual Functional Brain Network for AD Diagnosis (MICCAI 2023). 
+The data used in the experiments are from ADNI datasets (https://adni.loni.usc.edu/).
  
-# Quick start (Train and Test)
-We provide the code for our model here (`Model.py`), and training and testing code（`main.py`). The specific model settings can be found in the article's documentation.
-We have provided a sample of preprocessed fMRI participant data in the Data folder (randomly generated using Python). Please replace it with real data for the actual experiment.
-Before training the model, please configure the dependencies in the `requirements.txt`. Setting and modifying experimental parameters in `config.yaml`.
-You can run `main.py` to quickly train and test the program.
+# Quick start
+Before training the model, please configure the dependencies in the `requirements.txt`.
 
+Train and test the program by `main.py --config config`.
 
+Please note that the synthetic data are provided only to facilitate running the code and release of the original data used in the paper is out of the authority of the author. Please refer to the corresponding data resource for actual evaluation.
 
 
 # Citation
 If you use our method or any part of it in your research, please cite:
 
-@inproceedings{BarsoumICMI2016,
+@inproceedings{ACIFBN,
     title={Training Deep Networks for Facial Expression Recognition with Crowd-Sourced Label Distribution},
-    author={Barsoum, Emad and Zhang, Cha and Canton Ferrer, Cristian and Zhang, Zhengyou},
-    booktitle={ACM International Conference on Multimodal Interaction (ICMI)},
-    year={2016}
+    author={Jianjia Zhang，Xiang Tang，Xiaocai Zhang，Mengting Liu，Dinggang Shen},
+    booktitle={26th International Conference on Medical Image Computing and Computer Assisted Intervention(MICCAI)，October 8-12, 2023，Vancouver，Canada.},
+    year={2023}
 }
