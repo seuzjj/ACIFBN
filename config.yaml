@@ -1,0 +1,29 @@
+dataset: adni2
+prefix: sample   # the prefix of the Data
+k_folds: [5] #[1,2,3,4,5]
+batch_size: 16
+lr: 0.1
+momentum: 0.9
+lr_decay_rate: 0.0001
+
+device: cuda
+gpu: 0
+seed: 1
+pre_trained: False
+weights_path: path.....
+work_dir: ./logging
+start_epoch: 0
+end_epoch: 250
+save_freq: 300  # Frequency of saving models
+step: [220,230]
+warm_up_epoch: 5
+config_128: [[6, 12, False, 1, 32,7, 2],   # in_channels, out_channels, is_regularization, Conv_stride,chunk_kernel_size,total_chunk,num_subset
+                                                 [12, 12, True, 1, 64, 3, 2],
+                                                 [12, 12, False, 2, 1, 1, 2],
+                                                 [12, 12, True, 2, 1, 1, 2],
+                                                 [12, 12, True, 1, 1, 1, 2],]
+
+sparsity_alpha: 2.0  # 0,[1~2]
+kernel_size: 3
+use_pes: True
+num_subset: 2
