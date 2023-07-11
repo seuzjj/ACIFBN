@@ -20,7 +20,7 @@ Please note that the synthetic data are provided only to facilitate running the 
 If you use our method or any part of it in your research, please cite:
 
 @inproceedings{ACIFBN,
-    title={Training Deep Networks for Facial Expression Recognition with Crowd-Sourced Label Distribution},
+    title={Learning Asynchronous Common and Individual Functional Brain Network for AD Diagnosis},
     author={Jianjia Zhang，Xiang Tang，Xiaocai Zhang，Mengting Liu，Dinggang Shen},
     booktitle={26th International Conference on Medical Image Computing and Computer Assisted Intervention(MICCAI)，October 8-12, 2023，Vancouver，Canada.},
     year={2023}
