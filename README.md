@@ -1,11 +1,10 @@
-# CrossKT: Learning Asynchronous Common and Individual Functional Brain Network for AD Diagnosis
-
+# Asynchronous Functional Brain Network Construction with Spatiotemporal Transformer for MCI Classification
 
 
 # Overview
 
 ![image](framework.png)
-This code is for the paper: Learning Asynchronous Common and Individual Functional Brain Network for AD Diagnosis. 
+This code is for the paper: Asynchronous Functional Brain Network Construction with Spatiotemporal Transformer for MCI Classification. 
 The data used in the experiments are from ADNI datasets (https://adni.loni.usc.edu/).
  
 # Quick start
